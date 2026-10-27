@@ -149,15 +149,15 @@ Pourquoi : Pour des raisons de confidentialité évidente. En GET, le mot de pas
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ 4xx (Erreur client) : Le client est fautif (ex. mauvais URL saisie avec 404, accès interdit avec 403).   5xx (Erreur serveur) : Le serveur est fautif (bug dans le code Python, crash du serveur avec 500). 
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur répond avec un code 301 ou 302 et indique la nouvelle adresse dans l'en-tête Location. C'est le navigateur qui lit cet en-tête et effectue automatiquement la deuxième requête vers la nouvelle URL.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Après la connexion à un compte (redirection automatique vers le tableau de bord) ou lors du changement d'adresse d'un site web (de http:// vers https://).
 
 ---
 
