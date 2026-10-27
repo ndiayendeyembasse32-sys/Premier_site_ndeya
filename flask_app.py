@@ -81,7 +81,7 @@ def moi():
         navigateur=request.headers.get("User-Agent"),
         langues=request.headers.get("Accept-Language"),
         entetes=request.headers,
-    )
+        )
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
