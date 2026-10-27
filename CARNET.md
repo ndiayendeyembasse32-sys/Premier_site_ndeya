@@ -107,15 +107,17 @@
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Nom du paramètre : search_query
+
+ Valeur du paramètre : chat
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Comme la chaîne de texte "bonjour" ne peut pas être convertie en entier, Python lève une erreur de type ValueError, ce qui fait planter l'application
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Afficher directement (sans filtrage ni nettoyage) ce qu'un utilisateur envoie crée de graves failles de sécurité
 
 ---
 
