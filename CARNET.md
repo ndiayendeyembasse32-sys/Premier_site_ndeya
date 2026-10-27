@@ -165,19 +165,23 @@ Pourquoi : Pour des raisons de confidentialité évidente. En GET, le mot de pas
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Votre adresse IP (qui permet de déterminer approximativement votre géolocalisation et votre FAI).
+
+Votre User-Agent (qui indique votre système d'exploitation, le navigateur utilisé et sa version).
+
+Vos préférences linguistiques via l'en-tête Accept-Language.
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Il permet au serveur de détecter automatiquement la langue préférée de l'utilisateur pour le rediriger vers la version linguistique adaptée de l'encyclopédie (par exemple afficher Wikipédia en français si l'en-tête contient fr)
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ la page demander etait /nimportequoi
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le mode « navigation privée » n'assure pas un anonymat total. Il empêche seulement le enregistrement de l'historique et des cookies en local sur l'ordinateur, mais le serveur distant, le fournisseur d'accès internet et les administrateurs du réseau continuent de recevoir l'adresse IP et les en-têtes HTTP de la requête.
 
 ---
 
@@ -185,15 +189,15 @@ Pourquoi : Pour des raisons de confidentialité évidente. En GET, le mot de pas
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Une page HTML contient du code de structure et de présentation destiné à être affiché à un humain via un navigateur web. Une réponse JSON contient uniquement des données brutes structurées (clés/valeurs), destinées à être traitées par un programme ou du JavaScript.   
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Sur le serveur : Le code Python (Flask) qui génère l'heure et renvoie le JSON ou le template.   Dans le navigateur : Le code JavaScript qui fait la requête chaque seconde et met à jour l'affichage de l'heure dans le DOM. 
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ L'application Météo. Elle envoie au serveur les coordonnées GPS ou le nom de la ville (requête API), et le serveur lui renvoie les données météo brutes en format JSON (température, prévisions, humidité) que l'application met en forme à l'écran.
 
 ---
 
