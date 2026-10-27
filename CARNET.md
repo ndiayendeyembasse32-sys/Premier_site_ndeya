@@ -43,15 +43,15 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ le serveur envoie du code brut et le navigateur l'interprete et le rend visible
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ les balises servent a stucturer , organiser et donner du sens au contenu pourque le navigateur puisse savoir comment l'afficher
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ par ce que le lien que l'on a mis monte le chemin a suivre pour recuperer l'image
 
 ---
 
