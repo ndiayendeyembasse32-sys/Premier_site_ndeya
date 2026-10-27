@@ -35,7 +35,7 @@ def presentation():
         <li>La musique</li>
         <li>Le code (bientôt !)</li>
     </ul>
-    
+    """
 
 @app.get("/loisirs")
 def loisirs():
