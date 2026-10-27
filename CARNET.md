@@ -1,10 +1,10 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom : Ndiaye
 
-**Prénom :** 
+**Prénom : Ndeye Mbasse
 
-**Adresse de mon site :** https://______.pythonanywhere.com
+**Adresse de mon site :** https://ndeyamn.pythonanywhere.com
 
 > Modifiez ce fichier directement sur GitHub (icône crayon ✏️) pour répondre aux questions de chaque exercice.
 > Écrivez avec vos propres mots : une réponse courte et juste vaut mieux qu'un long copier-coller ! 🙂
@@ -59,7 +59,7 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ le fait de separer le code Python et le HTML nous permet de mieux s'organiser et de plus ne pas melanger les deux codes sources.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
