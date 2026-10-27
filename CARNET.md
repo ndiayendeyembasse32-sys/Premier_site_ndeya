@@ -75,11 +75,11 @@
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ il doit telecharger 2 fichiers
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ctrl +f5 force le le navigateur a vider son cache et de recharger le dernier mise a jour 
 
 ---
 
