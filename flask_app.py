@@ -26,12 +26,12 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return render_template("presentation.html", dire="Ndeya", nom="Ndiaye")
-
+    return render_template("presentation.html", prenom="Léa", nom="Martin",
+                       loisirs=["Jeux vidéo", "Musique", "Escalade"])
 
 @app.get("/loisirs")
 def loisirs():
-    return "J'aime cuisiner."
+   return "J'aime cuinsiner"
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
