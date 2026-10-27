@@ -63,7 +63,7 @@
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ c'est remplace par le navigateur. Je l'ai verifier en changeant prenom 
 
 ---
 
